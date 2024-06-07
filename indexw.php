@@ -23,6 +23,12 @@
                 <input type="password" id="formName" name="senha" placeholder="Senha">
                 <button type="submit" class="btn btn-outline-primary" style="padding:10px; padding-left: 120px; padding-right:120px; font-size:15px; margin-bottom: 8px; margin-top: 7px" > Entrar </button>
                 <span style="padding:12px; padding-left: 37px; padding-right:37px; font-size:15px; background-color:crimson; color:white; border-radius: 9px; ">Usuario e/ou senha invalidos</span>
+                <p>Pagina após Login</p>
+                <select name="escolha" id="escolha" style="border-radius: 5px; padding:5px">
+                    <option value="1">Dashboard</option>
+                    <option value="2">Historico</option>
+                    <option value="3">Usuarios</option>
+                </select>
             </form>
         </div>
         <div class="toggle-container">

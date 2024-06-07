@@ -1,7 +1,6 @@
 <?php include 'conexao.php'; ?>
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,6 +21,12 @@
                 <input type="text" id="formName" name="usuario" placeholder="Nome de Usuario">
                 <input type="password" id="formName" name="senha" placeholder="Senha">
                 <button type="submit" class="btn btn-outline-primary" style="padding:10px; padding-left: 120px; padding-right:120px; font-size:15px; margin-top: 7px" > Entrar </button>
+                <p>Pagina após Login</p>
+                <select name="escolha" id="escolha" style="border-radius: 5px; padding:5px">
+                    <option value="1">Dashboard</option>
+                    <option value="2">Historico</option>
+                    <option value="3">Usuarios</option>
+                </select>
             </form>
         </div>
         <div class="toggle-container">
