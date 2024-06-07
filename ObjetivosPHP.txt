@@ -1,0 +1,42 @@
+1. Documentação 
+| 1.1 Comentarios [Sim] (Todo o projeto, menos CSS)
+
+2. Padrao utilizado 
+| 2.1 Uso de "Camel Case" ou snake_case" [Sim] (Camel Case)
+
+3. Operadores 
+| 3.1 Aritmeticos [Sim]  ('dashboard.php' Linha 169)
+| 3.2 String [Sim]   ('conexao.php' Linha 9)                                                          
+| 3.3 Atribuicao [Sim] (Todo o projeto)
+| 3.4 Comparacao [Sim] ('login.php' Linha 24)
+| 3.5 Incremento ou Decremento [Sim] ('dashboard.php' Linha  163)
+| 3.6 Logico [Sim] ('login.php' Linha 4)
+
+4. Arrays
+| 4.1 Array [Sim] ('login.php' Linha 25-27)
+
+5. Lacos
+| 5.1 For [Sim] ('dashboard.php' Linha 161)
+| 5.2 Foreach [Sim] ('dashboard.php' Linha 226)
+| 5.3 While / Do_While [Nao]                                                             **
+
+6. Controle de Fluxo
+| 6.1 If_Else [Sim] ('login.php' Linha 24)
+| 6.2 Switch [Sim] //PO-6.2 (Switch), dashboard.php                                                           
+| 6.3 Operador Ternario [Sim] ('dashboard.php' Linha 288)
+
+7. Metodo OO
+| 7.1 Classes (Metodos e Atributos) [Sim] ('Pedido.php')
+| 7.2 Uso de Heranca [Sim] ('pedido.php' e 'conBd.php')
+| 7.3 Instanciacao de Objetos [Sim] ('addpedido.php' Linha 5)
+
+8. Funcoes
+| 8.1 Funcoes com passagem de paramemtros [Sim] ('updatepedido.php' Linha 16)
+
+9. Armazenamento
+| 9.1 Banco de Dados - Conexao POO [Sim] ('conexao.php')
+| 9.2 Leitura e apresentacao de registro [Sim] ('historicopedido.php' Linha 134)
+| 9.3 Atualizaçao [Sim] ('updatepedido.php')
+| 9.4 Deleçao [Sim] ('deletepedido.php')
+| 9.5 Inserçao [Sim] ('updatepage')
+

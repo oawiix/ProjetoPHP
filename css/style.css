@@ -1,0 +1,17 @@
+* {
+    margin: 15px;
+    padding: 2px;
+    box-sizing: border-box;
+}
+
+th {
+    padding: 15px;
+}
+
+tr {
+    padding:15px;
+}
+
+td{
+    padding: 15px
+}
